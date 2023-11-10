@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MyController {
 
-    @GetMapping("/hello")
+    @GetMapping
     public String hello(Model model) {
         model.addAttribute("message", "Hello, Spring Boot!");
         return "hello";
