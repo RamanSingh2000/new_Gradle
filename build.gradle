@@ -20,6 +20,7 @@ dependencies {
 
 bootWar {
     archiveFileName = 'my-spring-boot-app.war'
+ mainClassName = 'com.example.demo.NewGradleProjectApplication'
 }
 tasks.named('test') {
 	useJUnitPlatform()
